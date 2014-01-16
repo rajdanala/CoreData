@@ -22,6 +22,11 @@
 		F9C50EC018863645007561B2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C50EA418863645007561B2 /* CoreData.framework */; };
 		F9C50EC818863645007561B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9C50EC618863645007561B2 /* InfoPlist.strings */; };
 		F9C50ECA18863645007561B2 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C50EC918863645007561B2 /* CoreDataTests.m */; };
+		F9C50ED418863713007561B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C50ED318863713007561B2 /* Main.storyboard */; };
+		F9C50ED7188637E6007561B2 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C50ED6188637E6007561B2 /* CoreDataViewController.m */; };
+		F9C50EDA18865A0C007561B2 /* CoreDataHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C50ED918865A0C007561B2 /* CoreDataHomeViewController.m */; };
+		F9C50EDD18866374007561B2 /* CoreDataRidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C50EDC18866374007561B2 /* CoreDataRidersViewController.m */; };
+		F9C50EE018866CCE007561B2 /* RidersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C50EDF18866CCE007561B2 /* RidersTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		F9C50EC518863645007561B2 /* CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		F9C50EC718863645007561B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9C50EC918863645007561B2 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
+		F9C50ED318863713007561B2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F9C50ED5188637E6007561B2 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		F9C50ED6188637E6007561B2 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		F9C50ED818865A0C007561B2 /* CoreDataHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHomeViewController.h; sourceTree = "<group>"; };
+		F9C50ED918865A0C007561B2 /* CoreDataHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHomeViewController.m; sourceTree = "<group>"; };
+		F9C50EDB18866374007561B2 /* CoreDataRidersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataRidersViewController.h; sourceTree = "<group>"; };
+		F9C50EDC18866374007561B2 /* CoreDataRidersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataRidersViewController.m; sourceTree = "<group>"; };
+		F9C50EDE18866CCE007561B2 /* RidersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RidersTableViewCell.h; sourceTree = "<group>"; };
+		F9C50EDF18866CCE007561B2 /* RidersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RidersTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +129,20 @@
 		F9C50EA618863645007561B2 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				F9C50ED818865A0C007561B2 /* CoreDataHomeViewController.h */,
+				F9C50ED918865A0C007561B2 /* CoreDataHomeViewController.m */,
 				F9C50EAF18863645007561B2 /* CoreDataAppDelegate.h */,
 				F9C50EB018863645007561B2 /* CoreDataAppDelegate.m */,
+				F9C50ED5188637E6007561B2 /* CoreDataViewController.h */,
+				F9C50ED6188637E6007561B2 /* CoreDataViewController.m */,
 				F9C50EB518863645007561B2 /* Images.xcassets */,
 				F9C50EB218863645007561B2 /* CoreData.xcdatamodeld */,
+				F9C50ED318863713007561B2 /* Main.storyboard */,
 				F9C50EA718863645007561B2 /* Supporting Files */,
+				F9C50EDB18866374007561B2 /* CoreDataRidersViewController.h */,
+				F9C50EDC18866374007561B2 /* CoreDataRidersViewController.m */,
+				F9C50EDE18866CCE007561B2 /* RidersTableViewCell.h */,
+				F9C50EDF18866CCE007561B2 /* RidersTableViewCell.m */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -231,6 +254,7 @@
 			files = (
 				F9C50EAB18863645007561B2 /* InfoPlist.strings in Resources */,
 				F9C50EB618863645007561B2 /* Images.xcassets in Resources */,
+				F9C50ED418863713007561B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9C50EAD18863645007561B2 /* main.m in Sources */,
+				F9C50ED7188637E6007561B2 /* CoreDataViewController.m in Sources */,
 				F9C50EB118863645007561B2 /* CoreDataAppDelegate.m in Sources */,
+				F9C50EDA18865A0C007561B2 /* CoreDataHomeViewController.m in Sources */,
+				F9C50EE018866CCE007561B2 /* RidersTableViewCell.m in Sources */,
+				F9C50EDD18866374007561B2 /* CoreDataRidersViewController.m in Sources */,
 				F9C50EB418863645007561B2 /* CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
