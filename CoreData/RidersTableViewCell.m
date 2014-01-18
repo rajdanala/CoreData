@@ -24,7 +24,7 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
-    this needs to be removed
+   // this needs to be removed
 }
 
 @end
